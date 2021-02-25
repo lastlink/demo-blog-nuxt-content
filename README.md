@@ -1,25 +1,11 @@
-# nuxt-content-article
+# STATIC
 
-The [content module](https://content.nuxtjs.org/) is a git files based headless CMS that provides powerful features when it comes to write blogs, documentation sites or just adding content to any regular website. In this post we will go through most of the benefits of this module and discover how we can create a blog with it.
+**This directory is not required, you can delete it if you don't want to use it.**
 
-For detailed explanation on how to create this blog, check out [the tutorial](https://nuxtjs.org/blog/creating-blog-with-nuxt-content).
+This directory contains your static files.
+Each file inside this directory is mapped to `/`.
+Thus you'd want to delete this README.md before deploying to production.
 
-Click here to view the [demo](https://blog-with-nuxt-content.netlify.app/)
+Example: `/static/robots.txt` is mapped as `/robots.txt`.
 
-![demo of blog](https://res.cloudinary.com/nuxt/video/upload/v1588091670/demo-blog-content_shk6kw.jpg)
-
-## Build Setup
-
-```bash
-# install dependencies
-$ yarn
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# generate static project
-$ yarn generate
-
-# view a production version of your app
-$ yarn start
-```
+More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/assets#static).
